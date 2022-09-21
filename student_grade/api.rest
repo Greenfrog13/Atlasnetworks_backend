@@ -1,0 +1,28 @@
+@host = localhost:8880
+
+POST http: 
+content-type: application/json 
+
+{
+    "name": "test-product",
+    "description": "random-description",
+    "price": 100.00
+}
+
+GET http:
+content-type: application/json 
+
+GET http:
+content-type: application/json 
+
+PUT http:
+content-type: application/json 
+
+{
+    "name": "updated-product",
+    "description": "random-description-updated",
+    "price": 100.00 
+}
+
+DELETE http:
+content-type: application/json 
